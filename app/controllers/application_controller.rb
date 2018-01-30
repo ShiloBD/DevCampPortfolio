@@ -3,4 +3,5 @@ class ApplicationController < ActionController::Base
   include DeviseWhitelist
   include DefaultPageContent
   include SetSource
+  include CurrentUserConcern
 end
