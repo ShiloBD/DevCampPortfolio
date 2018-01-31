@@ -55,4 +55,4 @@ gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'jquery-rails'
 gem 'bootstrap', '~> 4.0.0'
 
-gem 'daviesinc_view_tool', git: 'https://github.com/ShiloBD/daviesinc_view_tool'
+gem 'daviesinc_view_tool', '~> 0.1.0'
