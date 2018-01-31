@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/ShiloBD/daviesinc_view_tool
+  revision: 6b62b64bcac8157f44c0437b5e22db9a961cc8b4
+  specs:
+    daviesinc_view_tool (0.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -193,6 +199,7 @@ DEPENDENCIES
   bootstrap (~> 4.0.0)
   byebug
   coffee-rails (~> 4.2)
+  daviesinc_view_tool!
   devise (~> 4.4, >= 4.4.1)
   friendly_id (~> 5.1.0)
   jbuilder (~> 2.5)
