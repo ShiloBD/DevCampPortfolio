@@ -14,12 +14,10 @@
   </head>
 
   <body>
-    <!-- Start of nav -->
-
-    <!-- End of nav -->
+    
+    <%= render 'shared/blog_nav' %>
 
       <!-- Start of blog header -->
-
     <div class="container">
       <header class="blog-header py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
@@ -37,15 +35,11 @@
           </div>
         </div>
       </header>
-
       <!-- End of blog header -->
 
       <!-- Start of row elements -->
       <div class="row">
-
-    <!-- End of row elements -->
-
-        <%= login_helper %>
+      <!-- End of row elements -->
 
         <%= yield %>
 
