@@ -13,24 +13,35 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body class="text-center">
+  <body>
+     <div class="site-wrapper">
 
-    <%= video_tag(
-        'Workaholic.mp4',
-        id: 'background',
-        autoplay: true,
-        loop: true,
-        muted: true,
-        poster: 'pexels-photo.jpg'
-      )
-      %>
-      
-    <%= render "shared/application_nav" %>
+      <div class="site-wrapper-inner">
 
-    <%= yield %>
+        <div class="cover-container">
 
-    <%= render "shared/application_footer" %>
+          <%= video_tag(
+              'Workaholic.mp4',
+              id: 'background',
+              autoplay: true,
+              loop: true,
+              muted: true,
+              poster: 'pexels-photo.jpg'
+            )
+            %>
+            
+          <%= render "shared/application_nav" %>
 
-    <%= source_helper("application") %>
-  </body>
+          <%= yield %>
+
+          <%= source_helper("application") %>
+        </div>
+
+      </div>
+      <%= render "shared/application_footer" %>
+    </div>
+
+    
+
+   </body>
 </html>

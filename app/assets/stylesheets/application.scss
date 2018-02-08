@@ -45,7 +45,8 @@ body {
 
 .cover-container {
   max-width: 42em;
-}
+  min-height: 100%;
+} 
 
 
 /*
@@ -156,6 +157,9 @@ body {
 
 .app-footer {
   color: white;
+  display: flex;
+  justify-content: center;
+  margin-top: 95%;
 }
 
 
