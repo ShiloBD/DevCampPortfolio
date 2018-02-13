@@ -83,14 +83,16 @@ body {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
+@media (min-width: 62em) {
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 65 rem;
   }
+}
   .nav-masthead {
     float: right;
   }
-}
 
 
 /*
@@ -163,10 +165,18 @@ body {
   margin-top: 95%;
 }
 
+.tech-news {
+  color: black;
+  margin: 20px;
+}
 
+.tech-news a {
+  color: green;
+}
 
-
-
+.tech-news > .card {
+  padding: 30px;
+}
 
 
 
