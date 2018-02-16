@@ -33,14 +33,13 @@
           <%= render "shared/application_nav" %>
 
           <%= yield %>
+                
+          <%= render "shared/application_footer" %>
 
-          <%= source_helper("application") %>
+          <%= alerts %>
+
         </div>
-
       </div>
-      <%= render "shared/application_footer" %>
-
-      <%= alerts %>
     </div>
   </body>
 </html>
